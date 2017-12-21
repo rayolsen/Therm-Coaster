@@ -8205,7 +8205,7 @@ Alternate pin configuration
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.8128" drill="0">
 </class>
 </classes>
 <parts>
@@ -8215,11 +8215,11 @@ Alternate pin configuration
 <part name="BT1" library="Adafruit" deviceset="CR2032" device="SMT" value="3v"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="R0805" value="10K">
+<part name="THM" library="resistor" deviceset="R-EU_" device="R0805" value="10K">
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="TYPE" value="NTC"/>
 </part>
-<part name="R2" library="resistor" deviceset="R-US_" device="R0805" value="10K"/>
+<part name="R5" library="resistor" deviceset="R-US_" device="R0805" value="10K"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -8230,16 +8230,16 @@ Alternate pin configuration
 <part name="C5" library="resistor" deviceset="C-US" device="C0805" value="0.1"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="resistor" deviceset="R-US_" device="R0805" value="160"/>
 <part name="R4" library="resistor" deviceset="R-US_" device="R0805" value="160"/>
-<part name="R5" library="resistor" deviceset="R-US_" device="R0805" value="160"/>
-<part name="R6" library="resistor" deviceset="R-US_" device="R0805" value="160"/>
+<part name="R3" library="resistor" deviceset="R-US_" device="R0805" value="160"/>
+<part name="R2" library="resistor" deviceset="R-US_" device="R0805" value="160"/>
+<part name="R1" library="resistor" deviceset="R-US_" device="R0805" value="160"/>
 <part name="LED1" library="Adafruit" deviceset="WS2812B" device="5050"/>
 <part name="LED2" library="Adafruit" deviceset="WS2812B" device="5050"/>
 <part name="LED3" library="Adafruit" deviceset="WS2812B" device="5050"/>
 <part name="LED4" library="Adafruit" deviceset="WS2812B" device="5050"/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
-<part name="R7" library="resistor" deviceset="R-US_" device="R0805" value="10K"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="R0805" value="10K"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_06" device="SMD-FEMALE-V2"/>
 </parts>
 <sheets>
@@ -8253,13 +8253,13 @@ Alternate pin configuration
 <instance part="BT1" gate="G$1" x="38.1" y="88.9" rot="R180"/>
 <instance part="P+2" gate="VCC" x="27.94" y="96.52"/>
 <instance part="GND2" gate="1" x="48.26" y="83.82"/>
-<instance part="R1" gate="G$1" x="83.82" y="99.06" smashed="yes" rot="R90">
+<instance part="THM" gate="G$1" x="83.82" y="99.06" smashed="yes" rot="R90">
 <attribute name="TYPE" x="87.122" y="97.79" size="1.778" layer="96"/>
 <attribute name="TOLERANCE" x="92.456" y="99.568" size="1.778" layer="96"/>
 <attribute name="NAME" x="82.3214" y="95.25" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="85.852" y="99.568" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="83.82" y="83.82" rot="R90"/>
+<instance part="R5" gate="G$1" x="83.82" y="83.82" rot="R90"/>
 <instance part="P+3" gate="VCC" x="83.82" y="109.22"/>
 <instance part="P+4" gate="VCC" x="127" y="104.14"/>
 <instance part="GND4" gate="1" x="127" y="81.28"/>
@@ -8270,16 +8270,16 @@ Alternate pin configuration
 <instance part="C5" gate="G$1" x="139.7" y="93.98"/>
 <instance part="GND3" gate="1" x="83.82" y="73.66"/>
 <instance part="GND5" gate="1" x="137.16" y="15.24"/>
-<instance part="R3" gate="G$1" x="182.88" y="55.88" rot="R270"/>
-<instance part="R4" gate="G$1" x="154.94" y="55.88" rot="R270"/>
-<instance part="R5" gate="G$1" x="127" y="55.88" rot="R270"/>
-<instance part="R6" gate="G$1" x="99.06" y="55.88" rot="R270"/>
+<instance part="R4" gate="G$1" x="182.88" y="55.88" rot="R270"/>
+<instance part="R3" gate="G$1" x="154.94" y="55.88" rot="R270"/>
+<instance part="R2" gate="G$1" x="127" y="55.88" rot="R270"/>
+<instance part="R1" gate="G$1" x="99.06" y="55.88" rot="R270"/>
 <instance part="LED1" gate="G$1" x="93.98" y="33.02"/>
 <instance part="LED2" gate="G$1" x="121.92" y="33.02"/>
 <instance part="LED3" gate="G$1" x="149.86" y="33.02"/>
 <instance part="LED4" gate="G$1" x="177.8" y="33.02"/>
 <instance part="P+5" gate="VCC" x="139.7" y="68.58"/>
-<instance part="R7" gate="G$1" x="33.02" y="17.78" rot="R180"/>
+<instance part="R6" gate="G$1" x="33.02" y="17.78" rot="R180"/>
 <instance part="J1" gate="G$1" x="175.26" y="93.98" rot="R180"/>
 </instances>
 <busses>
@@ -8303,7 +8303,7 @@ Alternate pin configuration
 <junction x="27.94" y="91.44"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="THM" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="106.68" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 </segment>
@@ -8327,26 +8327,26 @@ Alternate pin configuration
 <pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="63.5" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="63.5" x2="127" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="127" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="63.5" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="127" y1="60.96" x2="127" y2="63.5" width="0.1524" layer="91"/>
 <junction x="127" y="63.5"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="60.96" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
 <junction x="154.94" y="63.5"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="60.96" x2="182.88" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
 <wire x1="139.7" y1="66.04" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
 <junction x="139.7" y="63.5"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
 <label x="25.4" y="17.78" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -8394,7 +8394,7 @@ Alternate pin configuration
 <pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="78.74" x2="83.82" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
@@ -8430,28 +8430,28 @@ Alternate pin configuration
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="LED1" gate="G$1" pin="VDD"/>
 <wire x1="99.06" y1="50.8" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="LED2" gate="G$1" pin="VDD"/>
 <wire x1="127" y1="50.8" x2="127" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="LED3" gate="G$1" pin="VDD"/>
 <wire x1="154.94" y1="50.8" x2="154.94" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="LED4" gate="G$1" pin="VDD"/>
 <wire x1="182.88" y1="50.8" x2="182.88" y2="48.26" width="0.1524" layer="91"/>
 </segment>
@@ -8491,7 +8491,7 @@ Alternate pin configuration
 </net>
 <net name="RESET" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="17.78" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
 <label x="60.96" y="50.8" size="1.778" layer="95"/>
 <label x="43.18" y="17.78" size="1.778" layer="95"/>
@@ -8513,8 +8513,8 @@ Alternate pin configuration
 <label x="60.96" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="THM" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="93.98" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="91.44" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="91.44" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
@@ -8561,6 +8561,14 @@ Alternate pin configuration
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,99.06,48.26,LED1,VDD,N$1,,,"/>
+<approved hash="104,1,127,48.26,LED2,VDD,N$2,,,"/>
+<approved hash="104,1,154.94,48.26,LED3,VDD,N$3,,,"/>
+<approved hash="104,1,182.88,48.26,LED4,VDD,N$4,,,"/>
+<approved hash="113,1,173.397,91.3723,J1,,,,,"/>
+<approved hash="115,1,58.42,50.8,RESET,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
