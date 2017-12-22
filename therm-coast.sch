@@ -351,9 +351,7 @@ at 27/07/2012 14:02:49</description>
 <text x="-3.556" y="10.302" size="1.6764" layer="25" font="vector">&gt;NAME</text>
 <text x="-4.318" y="-12.35" size="1.6764" layer="27" font="vector">&gt;VALUE</text>
 <polygon width="0.127" layer="29">
-<vertex x="-9" y="0" curve="-90"/>
 <vertex x="0" y="9" curve="-90"/>
-<vertex x="9" y="0" curve="-90"/>
 <vertex x="0" y="-9" curve="-90"/>
 </polygon>
 </package>
