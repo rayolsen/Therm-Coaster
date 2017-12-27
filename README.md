@@ -6,7 +6,7 @@ I plan on using ATTiny85 do the work, since it should run on 3v
 CR2023 is 3v and should have enough mA to power it and some 805 LEDS
 And a thermresistor will sense the temp, obviously.
 
-The end game is to dipped the board in resin to waterproof and make it into am actual coaster
+The end game is to dip the board in resin to waterproof and make it into am actual coaster
 
 ---
 This is intended to be an Entry for the [HackaDay Coin Cell Challenge](https://hackaday.io/contest/28283-coin-cell-challenge)
